@@ -24,22 +24,13 @@ options(scipen = 999) # disable scientific notation
 
 [^1]: Wikipedia. 2021. "2021 Texas power crisis." Last modified October 2, 2021. <https://en.wikipedia.org/wiki/2021_Texas_power_crisis>.
 
-For this assignment, you are tasked with:\
+In this analysis, we will:\
 - estimating the number of homes in Houston that lost power as a result of the first two storms\
 - investigating if socioeconomic factors are predictors of communities recovery from a power outage
 
-Your analysis will be based on remotely-sensed night lights data, acquired from the [Visible Infrared Imaging Radiometer Suite (VIIRS)](https://en.wikipedia.org/wiki/Visible_Infrared_Imaging_Radiometer_Suite) onboard the Suomi satellite. In particular, you will use the VNP46A1 to detect differences in night lights before and after the storm to identify areas that lost electric power.
+We will be using remotely-sensed night lights data, acquired from the [Visible Infrared Imaging Radiometer Suite (VIIRS)](https://en.wikipedia.org/wiki/Visible_Infrared_Imaging_Radiometer_Suite) onboard the Suomi satellite. In particular, we will use the VNP46A1 to detect differences in night lights before and after the storm to identify areas that lost electric power.
 
-To determine the number of homes that lost power, you link (spatially join) these areas with [OpenStreetMap](https://www.openstreetmap.org/#map=4/38.01/-95.84) data on buildings and roads.
-
-To investigate potential socioeconomic factors that influenced recovery, you will link your analysis with data from the US Census Bureau.
-
-##### Learning objectives:
-
--   load vector/raster data\
--   simple raster operations\
--   simple vector operations\
--   spatial joins
+To determine the number of homes that lost power, we'll link our night lights data with Open Street Maps roads and Texas census tracts.
 
 ### Data
 
