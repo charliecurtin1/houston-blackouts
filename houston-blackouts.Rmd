@@ -56,7 +56,7 @@ We cannot readily get socioeconomic information for every home, so instead we ob
 
 ## Assignment
 
-Below is an outline of the steps analysis steps we take.
+Below is an outline of the analysis steps we take.
 
 ```{r}
 # import the necessary packages
